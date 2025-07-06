@@ -121,7 +121,6 @@ private:
 
   void set_rec(np c, ll l, ll r, ll i, const X &x) {
     assert(c);
-    // c必须已创建
     if (r == l + 1) {
       c->x = x;
       return;
@@ -143,7 +142,6 @@ private:
 
   void multiply_rec(np c, ll l, ll r, ll i, const X &x) {
     assert(c);
-    // c必须已创建
     if (r == l + 1) {
       c->x = MX::op(c->x, x);
       return;
@@ -180,7 +178,6 @@ private:
     prod_rec(c->r, m, r, ql, qr, x);
   }
 
-  // 会创建新节点
   template <typename F>
   ll max_right_rec(np c, const F &check, ll l, ll r, ll ql, X &x) {
     if (r <= ql) return R0;
@@ -197,7 +194,6 @@ private:
     return max_right_rec(c->r, check, m, r, ql, x);
   }
 
-  // 会创建新节点
   template <typename F>
   ll min_left_rec(np c, const F &check, ll l, ll r, ll qr, X &x) {
     if (qr <= l) return L0;
