@@ -1,5 +1,6 @@
 #pragma once
 #include "../ds/hashmap.hpp"
+
 #include <assert.h>
 
 template <typename T>

@@ -1,8 +1,8 @@
 #pragma once
-#include "../../template/type.hpp"
-#include "../../template/bits.hpp"
-#include "../random/base.hpp"
-#include "prime_test.hpp"
+#include "library/template/type.hpp"
+#include "library/template/bits.hpp"
+#include "library/math/random/base.hpp"
+#include "library/math/nt/prime_test.hpp"
 
 
 template <typename mint>
@@ -50,7 +50,6 @@ ll find_prime_factor(ll n) {
   return -1;
 }
 
-// ソートしてくれる
 vc<std::pair<ll, int>> factor(ll n) {
   assert(n >= 1);
   vc<std::pair<ll, int>> pf;

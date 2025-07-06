@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../template/type.hpp"
+
 #include <chrono>
 
 // unordered_map<u64, Val>

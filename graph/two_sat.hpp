@@ -1,7 +1,5 @@
 #pragma once
-#include "../template/type.hpp"
-#include "../template/io.hpp"
-#include "../template/fn.hpp"
+#include "../template.hpp"
 #include "base.hpp"
 #include "connected_component.hpp"
 

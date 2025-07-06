@@ -1,5 +1,5 @@
 #pragma once
-#include "../../template/type.hpp"
+#include "library/template/type.hpp"
 
 struct has_mod_impl {
   template <class T>

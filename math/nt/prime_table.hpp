@@ -1,5 +1,5 @@
 #pragma once
-#include "../../template/type.hpp"
+#include "library/template/type.hpp"
 
 template <typename T = int>
 vc<T> primetable(int LIM) {
@@ -31,9 +31,8 @@ vc<T> primetable(int LIM) {
   int k = LB(primes, LIM + 1);
   return {primes.begin(), primes.begin() + k};
 }
-// END: nt/primetable.hpp
  
-// [0, LIM], 0, 1 には -1 が入る。
+// [0, LIM], 0, 1 填充 -1
 vc<int> lpf_table(ll LIM) {
   auto primes = primetable(LIM);
   vc<int> res(LIM + 1, -1);

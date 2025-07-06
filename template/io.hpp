@@ -5,7 +5,8 @@
 #include <iomanip>
 #include <algorithm>
 
-#define FASTIO
+#define SYNC_OFF std::ios::sync_with_stdio(false); std::cin.tie(nullptr);
+
 namespace fastio {
 static constexpr uint32_t SZ = 1 << 17;
 char ibuf[SZ];
