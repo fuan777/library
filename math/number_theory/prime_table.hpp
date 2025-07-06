@@ -1,5 +1,5 @@
 #pragma once
-#include "library/template/type.hpp"
+#include "../../template/type.hpp"
 
 template <typename T = int>
 vc<T> primetable(int LIM) {

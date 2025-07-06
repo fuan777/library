@@ -1,6 +1,6 @@
 #pragma once
-#include "library/template/type.hpp"
-#include "library/template/io.hpp"
+#include "../../template/type.hpp"
+#include "../../template/io.hpp"
 
 template <int mod>
 struct modint {

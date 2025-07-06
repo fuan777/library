@@ -1,7 +1,7 @@
 #pragma once
-#include "library/template/type.hpp"
-#include "library/math/mod/mongomery_modint.hpp"
-#include "library/template/bits.hpp"
+#include "../mod/mongomery_modint.hpp"
+#include "../../template/type.hpp"
+#include "../../template/bits.hpp"
 
 bool primetest(const u64 x) {
   assert(x < u64(1) << 62);

@@ -1,5 +1,5 @@
 #pragma once
-#include "library/template/type.hpp"
+#include "../../template/type.hpp"
 
 // https://github.com/atcoder/ac-library/blob/master/atcoder/internal_math.hpp
 // 巴雷特模乘：https://en.wikipedia.org/wiki/Barrett_reduction
