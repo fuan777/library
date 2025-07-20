@@ -117,6 +117,10 @@ struct Graph {
     if (vc_indeg.empty()) calc_deg_inout();
     return {vc_indeg, vc_outdeg};
   }
+
+  int next(int eid, int frm) {
+    return edges[eid].frm == frm ? edges[eid].to : edges[eid].frm;
+  }
  
   int deg(int v) {
     if (vc_deg.empty()) calc_deg();

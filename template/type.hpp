@@ -10,6 +10,7 @@ using u64 = uint64_t;
 using i128 = __int128;
 using u128 = unsigned __int128;
 
+#include <cstring>
 #include <cstdint>
 #include <vector>
 #include <queue>

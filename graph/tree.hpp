@@ -1,14 +1,19 @@
 #pragma once
-#include "../../template.hpp"
+#include "../template.hpp"
 #include "base.hpp"
 
+#include <string>
+#include <cstring>
+#include <algorithm>
+
+using namespace std;
 template <typename GT>
 struct Tree {
   using Graph_type = GT;
   GT &G;
   using WT = typename GT::cost_type;
   int N;
-  vector<int> LID, RID, head, V, parent, VtoE;
+  std::vector<int> LID, RID, head, V, parent, VtoE;
   vc<int> depth;
   vc<WT> depth_weighted;
  
@@ -188,9 +193,9 @@ struct Tree {
     return res;
   }
  
-  vc<pair<int, int>> get_path_decomposition(int u, int v, bool edge) {
+  vc<std::pair<int, int>> get_path_decomposition(int u, int v, bool edge) {
     // [始点, 終点] の"閉"区間列。
-    vc<pair<int, int>> up, down;
+    vc<std::pair<int, int>> up, down;
     while (1) {
       if (head[u] == head[v]) break;
       if (LID[u] < LID[v]) {
@@ -210,8 +215,8 @@ struct Tree {
  
   // 辺の列の情報 (frm,to,str)
   // str = "heavy_up", "heavy_down", "light_up", "light_down"
-  vc<tuple<int, int, string>> get_path_decomposition_detail(int u, int v) {
-    vc<tuple<int, int, string>> up, down;
+  vc<std::tuple<int, int, string>> get_path_decomposition_detail(int u, int v) {
+    vc<std::tuple<int, int, string>> up, down;
     while (1) {
       if (head[u] == head[v]) break;
       if (LID[u] < LID[v]) {
@@ -225,7 +230,7 @@ struct Tree {
     if (LID[u] < LID[v]) down.eb(u, v, "heavy_down");
     elif (LID[v] < LID[u]) up.eb(u, v, "heavy_up");
     reverse(all(down));
-    concat(up, down);
+    // concat(up, down); 
     return up;
   }
  

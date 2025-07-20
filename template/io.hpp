@@ -245,7 +245,7 @@ using fastio::flush;
 #else
 #define SHOW(...)
 #endif
- 
+
 #define INT(...)   \
   int __VA_ARGS__; \
   read(__VA_ARGS__)
