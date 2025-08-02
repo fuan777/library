@@ -1,6 +1,13 @@
 #pragma once
 #include "../../template.hpp"
 
+/*
+* 线段树运算（X）：可能满足交换律
+* X = X * X：
+* 懒标记运算（X,A)：不满足交换律
+* X = X * A
+* (A = A * A)
+*/
 template <typename ActedMonoid>
 struct Lazy_SegTree {
   using AM = ActedMonoid;

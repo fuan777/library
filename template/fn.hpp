@@ -5,6 +5,8 @@
 #include <iterator>
 #include <numeric>
 
+#include "type.hpp"
+
 // vector
 #define COUNT(c, x) std::count(all(c), (x))
 // LB(c, x) y < x in c
@@ -117,11 +119,11 @@ T MAX(T a, Ts... args) {
 
 
 // function
-bool check_palindromic(const std::string &s) {
+inline bool check_palindromic(const std::string &s) {
     return s == REV(s);
 }
 
-bool check_palindromic(ll x) {
+inline bool check_palindromic(ll x) {
     return check_palindromic(std::to_string(x));
 }
 

@@ -259,7 +259,7 @@ using fastio::flush;
   u64 __VA_ARGS__; \
   read(__VA_ARGS__)
 #define STR(...)      \
-  string __VA_ARGS__; \
+  std::string __VA_ARGS__; \
   read(__VA_ARGS__)
 #define CHAR(...)   \
   char __VA_ARGS__; \
