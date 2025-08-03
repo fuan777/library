@@ -52,6 +52,17 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "vector": "cpp",
-        "algorithm": "cpp"
-    }
+        "algorithm": "cpp",
+        "any": "cpp",
+        "condition_variable": "cpp",
+        "csignal": "cpp",
+        "fstream": "cpp",
+        "list": "cpp",
+        "span": "cpp",
+        "unordered_set": "cpp",
+        "iterator": "cpp",
+        "__config": "cpp",
+        "tuple": "cpp"
+    },
+    "cmake.sourceDirectory": "/Users/qianyue/代码/cp/library/tool/test"
 }

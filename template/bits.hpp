@@ -1,24 +1,24 @@
 #pragma once
 #include "type.hpp"
 
-int popcnt(int x) { return __builtin_popcount(x); }
-int popcnt(u32 x) { return __builtin_popcount(x); }
-int popcnt(ll x) { return __builtin_popcountll(x); }
-int popcnt(u64 x) { return __builtin_popcountll(x); }
-int popcnt_sgn(int x) { return (__builtin_parity(unsigned(x)) & 1 ? -1 : 1); }
-int popcnt_sgn(u32 x) { return (__builtin_parity(x) & 1 ? -1 : 1); }
-int popcnt_sgn(ll x) { return (__builtin_parityll(x) & 1 ? -1 : 1); }
-int popcnt_sgn(u64 x) { return (__builtin_parityll(x) & 1 ? -1 : 1); }
+inline int popcnt(int x) { return __builtin_popcount(x); }
+inline int popcnt(u32 x) { return __builtin_popcount(x); }
+inline int popcnt(ll x) { return __builtin_popcountll(x); }
+inline int popcnt(u64 x) { return __builtin_popcountll(x); }
+inline int popcnt_sgn(int x) { return (__builtin_parity(unsigned(x)) & 1 ? -1 : 1); }
+inline int popcnt_sgn(u32 x) { return (__builtin_parity(x) & 1 ? -1 : 1); }
+inline int popcnt_sgn(ll x) { return (__builtin_parityll(x) & 1 ? -1 : 1); }
+inline int popcnt_sgn(u64 x) { return (__builtin_parityll(x) & 1 ? -1 : 1); }
 // (0, 1, 2, 3, 4) -> (-1, 0, 1, 1, 2)
-int topbit(int x) { return (x == 0 ? -1 : 31 - __builtin_clz(x)); }
-int topbit(u32 x) { return (x == 0 ? -1 : 31 - __builtin_clz(x)); }
-int topbit(ll x) { return (x == 0 ? -1 : 63 - __builtin_clzll(x)); }
-int topbit(u64 x) { return (x == 0 ? -1 : 63 - __builtin_clzll(x)); }
+inline int topbit(int x) { return (x == 0 ? -1 : 31 - __builtin_clz(x)); }
+inline int topbit(u32 x) { return (x == 0 ? -1 : 31 - __builtin_clz(x)); }
+inline int topbit(ll x) { return (x == 0 ? -1 : 63 - __builtin_clzll(x)); }
+inline int topbit(u64 x) { return (x == 0 ? -1 : 63 - __builtin_clzll(x)); }
 // (0, 1, 2, 3, 4) -> (-1, 0, 1, 0, 2)
-int lowbit(int x) { return (x == 0 ? -1 : __builtin_ctz(x)); }
-int lowbit(u32 x) { return (x == 0 ? -1 : __builtin_ctz(x)); }
-int lowbit(ll x) { return (x == 0 ? -1 : __builtin_ctzll(x)); }
-int lowbit(u64 x) { return (x == 0 ? -1 : __builtin_ctzll(x)); }
+inline int lowbit(int x) { return (x == 0 ? -1 : __builtin_ctz(x)); }
+inline int lowbit(u32 x) { return (x == 0 ? -1 : __builtin_ctz(x)); }
+inline int lowbit(ll x) { return (x == 0 ? -1 : __builtin_ctzll(x)); }
+inline int lowbit(u64 x) { return (x == 0 ? -1 : __builtin_ctzll(x)); }
 
 template <typename T>
 T kth_bit(int k) {

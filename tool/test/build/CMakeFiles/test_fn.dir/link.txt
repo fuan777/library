@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_fn.dir/template/test_fn.cpp.o -o test_fn  /opt/homebrew/lib/libgtest_main.a /opt/homebrew/lib/libgtest.a

@@ -1,5 +1,0 @@
-/Users/qianyue/代码/cp/library/tool/test/build/CMakeFiles/test_fn.dir
-/Users/qianyue/代码/cp/library/tool/test/build/CMakeFiles/test_io.dir
-/Users/qianyue/代码/cp/library/tool/test/build/CMakeFiles/test.dir
-/Users/qianyue/代码/cp/library/tool/test/build/CMakeFiles/edit_cache.dir
-/Users/qianyue/代码/cp/library/tool/test/build/CMakeFiles/rebuild_cache.dir

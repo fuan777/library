@@ -1,5 +1,0 @@
-if(EXISTS "/Users/qianyue/代码/cp/library/tool/test/build/test_fn[1]_tests.cmake")
-  include("/Users/qianyue/代码/cp/library/tool/test/build/test_fn[1]_tests.cmake")
-else()
-  add_test(test_fn_NOT_BUILT test_fn_NOT_BUILT)
-endif()
