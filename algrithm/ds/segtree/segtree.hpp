@@ -1,5 +1,5 @@
 #pragma once
-#include "../../template.hpp"
+#include "../../template/type.hpp"
 
 template <class Monoid>
 struct SegTree {

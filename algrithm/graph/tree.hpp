@@ -1,5 +1,5 @@
 #pragma once
-#include "../template.hpp"
+#include "../template/type.hpp"
 #include "base.hpp"
 
 #include <string>

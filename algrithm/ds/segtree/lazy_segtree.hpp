@@ -1,5 +1,5 @@
 #pragma once
-#include "../../template.hpp"
+#include "../../template/type.hpp"
 
 /*
 * 线段树运算（X）：可能满足交换律

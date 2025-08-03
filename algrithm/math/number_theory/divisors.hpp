@@ -8,9 +8,9 @@ vc<ll> divisors_by_pf(const vc<std::pair<ll, int>>& pf) {
   for (auto&& [p, e]: pf) {
     ll n = len(div);
     ll pp = 1;
-    FOR3(i, 1, e + 1) {
+    for (int i = 1; i <= e; i++) {
       pp *= p;
-      FOR(j, n) div.eb(div[j] * pp);
+      for (int j = 0; j < n; j++) div.eb(div[j] * pp);
     }
   }
   return div;

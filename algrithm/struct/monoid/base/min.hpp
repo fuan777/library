@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../../template.hpp"
+#include "../../../template/type.hpp"
 
 template <typename E>
 struct Monoid_Min {

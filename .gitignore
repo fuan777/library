@@ -1,18 +1,9 @@
-# CMake 生成的构建目录和文件
+
 build/              # CMake 构建目录，包含 Makefile、CMakeCache.txt 等
 out/                # 其他可能的构建输出目录（视项目配置）
-cmake-build-debug/  # 特定于某些 IDE（如 CLion）的构建目录
-cmake-build-release/
 
-# CMake 缓存和配置文件
-CMakeCache.txt      # CMake 配置缓存
-CMakeFiles/         # 构建过程中的临时文件
-CMakeScripts/       # CMake 脚本生成的文件
-CTestTestfile.cmake # CTest 测试配置文件
-cmake_install.cmake # 安装规则文件
-install_manifest.txt # 安装清单
+.vscode/
 
-# 编译器生成的文件
 *.o                 # 目标文件（object files）
 *.a                 # 静态库
 *.so                # 动态库（Linux）
@@ -20,34 +11,3 @@ install_manifest.txt # 安装清单
 *.dll               # 动态库（Windows）
 *.exe               # 可执行文件
 *.out               # 其他输出文件
-
-# IDE 和编辑器生成的文件
-*.vscode/           # VS Code 配置文件（可选择保留 .vscode/settings.json）
-*.idea/             # IntelliJ IDEA 配置文件
-*.vs/               # Visual Studio 文件
-*.suo               # Visual Studio 解决方案选项
-*.sln               # Visual Studio 解决方案文件（视需求保留）
-*.filters           # Visual Studio 过滤器
-*.user              # 用户特定文件
-
-# 临时文件和日志
-*.log               # 日志文件
-*.tmp               # 临时文件
-*.bak               # 备份文件
-
-# 依赖管理工具生成的目录
-_deps/              # CMake FetchContent 下载的依赖
-third_party/        # 手动添加的依赖（视项目结构）
-
-# 操作系统特定文件
-.DS_Store           # macOS 隐藏文件
-Thumbs.db           # Windows 缩略图缓存
-
-# 自定义构建产物（视项目）
-bin/                # 可执行文件目录
-lib/                # 库文件目录
-tests/bin/          # 测试可执行文件
-
-# 忽略特定文件模式
-*~                  # Emacs 备份文件
-.#*                 # Emacs 锁文件

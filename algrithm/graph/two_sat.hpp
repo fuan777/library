@@ -1,5 +1,6 @@
 #pragma once
-#include "../template.hpp"
+#include "../template/fn.hpp"
+#include "../template/io.hpp"
 #include "base.hpp"
 #include "connected_component.hpp"
 
@@ -45,7 +46,7 @@ struct TwoSat {
     G.build();
     ll n = len(values);
     auto [C, comp] = strongly_connected_component(G);
-    FOR(i, n) {
+    for (int i = 0; i < n; i++) {
       if (comp[2 * i] == comp[2 * i + 1]) return {false, values};
       values[i] = comp[2 * i] < comp[2 * i + 1];
     }

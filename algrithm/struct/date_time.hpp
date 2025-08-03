@@ -1,5 +1,5 @@
 #pragma once
-#include "../../template.hpp"
+#include "../../template/type.hpp"
 #include <tuple>
 
 // https://codeforces.com/problemset/problem/698/E
