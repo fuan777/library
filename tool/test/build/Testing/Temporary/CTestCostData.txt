@@ -1,0 +1,14 @@
+FnTest.REVTest 1 0.00225246
+FnTest.COUNTTest 1 0.00204817
+FnTest.LBUBTest 1 0.00212396
+FnTest.UNIQUETest 1 0.00192133
+FnTest.ChmaxChminTest 1 0.00220888
+FnTest.GCDTest 1 0.00187479
+FnTest.FloorCeilTest 1 0.00198683
+FnTest.BmodTest 1 0.00198921
+FnTest.DivmodTest 1 0.00178746
+FnTest.MinMaxTest 1 0.00291037
+FnTest.CheckPalindromicTest 1 0.001988
+FnTest.BinaryTransferTest 1 0.00213117
+FnTest.ToStringTest 1 0.00194604
+---

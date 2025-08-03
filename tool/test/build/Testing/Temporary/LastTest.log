@@ -1,0 +1,354 @@
+Start testing: Aug 03 18:40 CST
+----------------------------------------------------------
+1/23 Testing: FnTest.REVTest
+1/23 Test: FnTest.REVTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.REVTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.REVTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.REVTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.REVTest
+[       OK ] FnTest.REVTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.REVTest" end time: Aug 03 18:40 CST
+"FnTest.REVTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/23 Testing: FnTest.COUNTTest
+2/23 Test: FnTest.COUNTTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.COUNTTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.COUNTTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.COUNTTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.COUNTTest
+[       OK ] FnTest.COUNTTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.COUNTTest" end time: Aug 03 18:40 CST
+"FnTest.COUNTTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/23 Testing: FnTest.LBUBTest
+3/23 Test: FnTest.LBUBTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.LBUBTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.LBUBTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.LBUBTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.LBUBTest
+[       OK ] FnTest.LBUBTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.LBUBTest" end time: Aug 03 18:40 CST
+"FnTest.LBUBTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/23 Testing: FnTest.UNIQUETest
+4/23 Test: FnTest.UNIQUETest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.UNIQUETest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.UNIQUETest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.UNIQUETest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.UNIQUETest
+[       OK ] FnTest.UNIQUETest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.UNIQUETest" end time: Aug 03 18:40 CST
+"FnTest.UNIQUETest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/23 Testing: FnTest.ChmaxChminTest
+5/23 Test: FnTest.ChmaxChminTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.ChmaxChminTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.ChmaxChminTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.ChmaxChminTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.ChmaxChminTest
+[       OK ] FnTest.ChmaxChminTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.ChmaxChminTest" end time: Aug 03 18:40 CST
+"FnTest.ChmaxChminTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/23 Testing: FnTest.GCDTest
+6/23 Test: FnTest.GCDTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.GCDTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.GCDTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.GCDTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.GCDTest
+[       OK ] FnTest.GCDTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.GCDTest" end time: Aug 03 18:40 CST
+"FnTest.GCDTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/23 Testing: FnTest.FloorCeilTest
+7/23 Test: FnTest.FloorCeilTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.FloorCeilTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.FloorCeilTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.FloorCeilTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.FloorCeilTest
+[       OK ] FnTest.FloorCeilTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.FloorCeilTest" end time: Aug 03 18:40 CST
+"FnTest.FloorCeilTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/23 Testing: FnTest.BmodTest
+8/23 Test: FnTest.BmodTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.BmodTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.BmodTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.BmodTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.BmodTest
+[       OK ] FnTest.BmodTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.BmodTest" end time: Aug 03 18:40 CST
+"FnTest.BmodTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/23 Testing: FnTest.DivmodTest
+9/23 Test: FnTest.DivmodTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.DivmodTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.DivmodTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.DivmodTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.DivmodTest
+[       OK ] FnTest.DivmodTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.DivmodTest" end time: Aug 03 18:40 CST
+"FnTest.DivmodTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/23 Testing: FnTest.MinMaxTest
+10/23 Test: FnTest.MinMaxTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.MinMaxTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.MinMaxTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.MinMaxTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.MinMaxTest
+[       OK ] FnTest.MinMaxTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.MinMaxTest" end time: Aug 03 18:40 CST
+"FnTest.MinMaxTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/23 Testing: FnTest.CheckPalindromicTest
+11/23 Test: FnTest.CheckPalindromicTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.CheckPalindromicTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.CheckPalindromicTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.CheckPalindromicTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.CheckPalindromicTest
+[       OK ] FnTest.CheckPalindromicTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.CheckPalindromicTest" end time: Aug 03 18:40 CST
+"FnTest.CheckPalindromicTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/23 Testing: FnTest.BinaryTransferTest
+12/23 Test: FnTest.BinaryTransferTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.BinaryTransferTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.BinaryTransferTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.BinaryTransferTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.BinaryTransferTest
+[       OK ] FnTest.BinaryTransferTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.BinaryTransferTest" end time: Aug 03 18:40 CST
+"FnTest.BinaryTransferTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/23 Testing: FnTest.ToStringTest
+13/23 Test: FnTest.ToStringTest
+Command: "/Users/qianyue/代码/cp/library/tool/test/build/test_fn" "--gtest_filter=FnTest.ToStringTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/qianyue/代码/cp/library/tool/test
+"FnTest.ToStringTest" start time: Aug 03 18:40 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250430-4705-6kzjyz/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FnTest.ToStringTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FnTest
+[ RUN      ] FnTest.ToStringTest
+[       OK ] FnTest.ToStringTest (0 ms)
+[----------] 1 test from FnTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FnTest.ToStringTest" end time: Aug 03 18:40 CST
+"FnTest.ToStringTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 03 18:40 CST
